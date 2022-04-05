@@ -1,0 +1,56 @@
+.header{
+    background-color: #fff;
+    padding: 1% 0;
+}
+.logo img{
+    width: 100%;
+}
+.callright{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 10px;    
+}
+.callTag a svg {
+    color: #ae3e94;
+    animation: Header_zoom-in-zoom-out__Y7mPT 2s ease-out infinite;
+    margin-right: 8px;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1)
+    }
+    50% {
+        transform: scale(1.5, 1.5)
+    }
+    100% {
+        transform: scale(1, 1)
+    }
+}
+.callTag a span{
+    margin-right: 7px;
+    vertical-align: middle;
+    color: #333;
+    text-decoration: none;
+}
+.ChatLink a{
+    float: left;
+    border: 1px solid #40417b;
+    padding: 7px 15px;
+    border-radius: 50px;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+.ChatLink a svg{
+    color: #ae3e94;
+    margin-right: 6px;
+}
+.ChatLink a:hover{
+    border: 1px solid #b23b93;
+    background-color: #b33b93;
+    color: #fff;    
+}
+.ChatLink a:hover svg{
+    color: #fff;
+}
