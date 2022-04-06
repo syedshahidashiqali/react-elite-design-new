@@ -16,7 +16,7 @@ function Banner() {
               <p>
                 We Designed Websites that maximize your ROI At Elite Design Hub,
                 our website design and development experts create websites
-                leading to a sublime user experience
+                leading to a sublime user experiencejhjh
               </p>
               <Form>
                 <Form.Group controlId="formBasicName">
