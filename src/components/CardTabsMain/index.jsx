@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tabs, Tab } from "react-bootstrap";
 import { useState } from "react";
-import styles from "./index.module.css";
+import "./index.css";
 import CardBox from "../CardBox";
 import icon1 from "../../images/icon1.png";
 import icon2 from "../../images/icon2.png";
@@ -12,7 +12,7 @@ function CardTabsMain() {
   const [key, setKey] = useState("home");
 
   return (
-    <div className={styles.mainTabs}>
+    <div className="mainTabs">
       <Container>
         <Tabs
           id="controlled-tab-example"
