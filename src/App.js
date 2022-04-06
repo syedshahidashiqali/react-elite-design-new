@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Experiance from "./components/Experiance";
 import HeadingCenter from "./components/HeadingCenter";
 import CardTabsMain from "./components/CardTabsMain";
+import WebDesIndustry from "./components/WebDesignIndustry";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         headThird="PARTNER WITH US AND KEEP UP WITH THE LATEST MARKETING TRENDS WITHIN YOUR INDUSTRY"
       />
       <CardTabsMain />
+      <WebDesIndustry />
     </>
   );
 }

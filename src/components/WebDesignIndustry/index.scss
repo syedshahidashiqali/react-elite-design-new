@@ -1,0 +1,22 @@
+.webDesignMainWrapper {
+  margin-top: 5%;
+
+  .headingTextWrapper {
+    h5 {
+      color: transparent;
+      background-image: linear-gradient(to right, #b83d96, #3c427a);
+      font-weight: 700;
+      margin-bottom: 10px;
+      background-clip: text;
+      -webkit-background-clip: text;
+      font-size: 40px;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-weight: 400;
+      font-size: 18px;
+      margin-top: 0;
+    }
+  }
+}
