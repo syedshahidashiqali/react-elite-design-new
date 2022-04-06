@@ -5,6 +5,15 @@ import icon1 from "../../images/svg/icon1.svg";
 import icon2 from "../../images/svg/icon2.svg";
 import icon3 from "../../images/svg/icon3.svg";
 import icon4 from "../../images/svg/icon4.svg";
+import TabContentItem from "./TabContentItem";
+import web1Img from "../../images/website-1.png";
+import web2Img from "../../images/website-2.png";
+import web3Img from "../../images/website-3.jpg";
+import web4Img from "../../images/website-4.jpg";
+import web5Img from "../../images/website-5.jpg";
+import web6Img from "../../images/website-6.jpg";
+import web7Img from "../../images/website-7.jpg";
+import web8Img from "../../images/website-8.jpg";
 
 function WebDesIndustry() {
   return (
@@ -60,10 +69,48 @@ function WebDesIndustry() {
               <Col lg={9}>
                 <div className="serviceTabContentWrapper">
                   <Tab.Content>
-                    <Tab.Pane eventKey="custom"></Tab.Pane>
-                    <Tab.Pane eventKey="content"></Tab.Pane>
-                    <Tab.Pane eventKey="ecommerce"></Tab.Pane>
-                    <Tab.Pane eventKey="static"></Tab.Pane>
+                    <Tab.Pane eventKey="custom">
+                      <TabContentItem
+                        head="CUSTOM WEBSITE"
+                        para="Do you want to enhance your sales and spice your marketing strategies on a website? 
+                        Look no further. Our team of developers and designers has the ability and exposure to create an 
+                        engaging and appealing website for any business. Our websites can be used for mobile devices 
+                        without compromising on the user experience one bit. To ensure client satisfaction and maximum 
+                        return on investment, we design customized, easy-to-use, and lead-generating websites."
+                        imgs={[web1Img, web2Img]}
+                      />
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="content">
+                      <TabContentItem
+                        head="CMS – CONTENT MANAGEMENT SYSTEM"
+                        para="Every business needs a strong Content Management System (CMS). CMS is essential for 
+                        accurate and relevant information. We offer website development solutions for leading CMS 
+                        platforms such as WordPress, Joomla, and Drupal."
+                        imgs={[web3Img, web4Img]}
+                      />
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="ecommerce">
+                      <TabContentItem
+                        head="E-COMMERCE"
+                        para="A well-designed E-commerce website is essential to the success of online stores. 
+                        Contrary to the common assumption, a good design goes beyond just graphics and other 
+                        aesthetic elements. A professional is required to provide the necessary information, 
+                        brand enhancement, visibility of text, etc. to make a site user-friendly. Get the 
+                        pitch-perfect website for your brand with our impeccable E-commerce web design and 
+                        development service."
+                        imgs={[web5Img, web6Img]}
+                      />
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="static">
+                      <TabContentItem
+                        head="STATIC WEBSITE DESIGN"
+                        para="Elite Design Hub has the expertise to create a stunning static website. 
+                        Our creative team will create a design that will appeal to your clients and keep 
+                        them connected to your website for a long time. Rest assured, with our static website, 
+                        you will be able to keep the bounce rate under control."
+                        imgs={[web7Img, web8Img]}
+                      />
+                    </Tab.Pane>
                   </Tab.Content>
                 </div>
               </Col>
