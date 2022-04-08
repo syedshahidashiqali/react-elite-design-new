@@ -1,0 +1,52 @@
+.boxWrapper {
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: all linear 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+    .hoverEffects {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  img {
+    width: 100%;
+    border: 1px solid #e2dfdf;
+  }
+
+  .hoverEffects {
+    background-image: linear-gradient(
+      to right,
+      rgb(182 61 149 / 70%),
+      rgb(58 66 121 / 70%)
+    );
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 0.6s;
+
+    .iconWrapper {
+      color: #fff;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 5px;
+      display: inline-block;
+    }
+  }
+}

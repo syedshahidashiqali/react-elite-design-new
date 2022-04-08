@@ -6,6 +6,7 @@ import HeadingCenter from "./components/HeadingCenter";
 import CardTabsMain from "./components/CardTabsMain";
 import WebDesIndustry from "./components/WebDesignIndustry";
 import BrandingBanner from "./components/BrandingBanner";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <CardTabsMain />
       <WebDesIndustry />
       <BrandingBanner />
+      <Portfolio />
     </>
   );
 }

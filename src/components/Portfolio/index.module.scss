@@ -1,0 +1,37 @@
+.portfolioMainWrapper {
+  background: url(../../images/portfolioBg.jpg);
+  background-position: center;
+  padding: 60px 0;
+  overflow: hidden;
+
+  .textWrapper {
+    animation-timing-function: linear;
+
+    h4 {
+      font-size: 24px;
+      line-height: 29px;
+      color: #393939;
+      font-weight: 500;
+      margin: 0 0 13px;
+    }
+
+    h5 {
+      font-weight: 700;
+      margin-bottom: 10px;
+      line-height: 50px;
+      background-image: linear-gradient(to right, #b83d96, #3c427a);
+      color: transparent !important;
+      background-clip: text;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .portfolioMainWrapper {
+    .textWrapper {
+      h5 {
+        font-size: 35px;
+      }
+    }
+  }
+}
