@@ -5,6 +5,7 @@ import Experiance from "./components/Experiance";
 import HeadingCenter from "./components/HeadingCenter";
 import CardTabsMain from "./components/CardTabsMain";
 import WebDesIndustry from "./components/WebDesignIndustry";
+import BrandingBanner from "./components/BrandingBanner";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       />
       <CardTabsMain />
       <WebDesIndustry />
+      <BrandingBanner />
     </>
   );
 }

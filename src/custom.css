@@ -74,3 +74,11 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(117, 111, 111);
 }
+
+.jc-c {
+  justify-content: center;
+}
+
+.ai-c {
+  align-items: center;
+}

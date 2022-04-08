@@ -5,5 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-image-lightbox/style.css";
+import "animate.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
