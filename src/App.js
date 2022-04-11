@@ -7,6 +7,7 @@ import CardTabsMain from "./components/CardTabsMain";
 import WebDesIndustry from "./components/WebDesignIndustry";
 import BrandingBanner from "./components/BrandingBanner";
 import Portfolio from "./components/Portfolio";
+import AllInOne from "./components/AllInOne";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         headThird="PARTNER WITH US AND KEEP UP WITH THE LATEST MARKETING TRENDS WITHIN YOUR INDUSTRY"
       />
       <CardTabsMain />
+      <BrandingBanner />
+      <AllInOne />
+      <BrandingBanner />
       <WebDesIndustry />
       <BrandingBanner />
       <Portfolio />

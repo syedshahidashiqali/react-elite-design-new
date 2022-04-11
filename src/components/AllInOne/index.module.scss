@@ -1,0 +1,43 @@
+.allInOneMainWrapper {
+  margin-top: 5%;
+  position: relative;
+
+  .leftSideWrapper {
+    h5 {
+      color: #000;
+      font-size: 50px;
+      font-weight: 900;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      background-image: url(../../images/packageBgImg.jpg);
+      font-size: 133px;
+      font-weight: 900;
+      line-height: 0.75;
+      background-size: cover;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      background-position: center;
+    }
+
+    p {
+      font-size: 24px;
+      color: #333;
+      font-weight: 500;
+      margin-bottom: 30px;
+      line-height: 36px;
+    }
+
+    .packageListWrapper {
+      margin-bottom: 20px;
+
+      .packageList {
+        margin: 0 0 20px;
+        padding: 0;
+        list-style-type: none;
+      }
+    }
+  }
+}

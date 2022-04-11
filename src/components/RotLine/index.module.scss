@@ -1,0 +1,14 @@
+.rotImgWrapper {
+  position: absolute;
+  animation: rotate 8s infinite linear;
+  z-index: 9;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
