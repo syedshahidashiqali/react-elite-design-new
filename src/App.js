@@ -8,6 +8,7 @@ import WebDesIndustry from "./components/WebDesignIndustry";
 import BrandingBanner from "./components/BrandingBanner";
 import Portfolio from "./components/Portfolio";
 import AllInOne from "./components/AllInOne";
+import Transform from "./components/Transform";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <WebDesIndustry />
       <BrandingBanner />
       <Portfolio />
+      <Transform />
     </>
   );
 }

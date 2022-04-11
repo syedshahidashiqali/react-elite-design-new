@@ -1,0 +1,12 @@
+.transformTabInnerWrapper {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  span {
+    position: relative;
+    padding-left: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+  }
+}
