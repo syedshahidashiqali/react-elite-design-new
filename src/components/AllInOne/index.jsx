@@ -18,7 +18,7 @@ function AllInOne() {
                 companies
               </p>
               <Row>
-                <Col lg={6} md={6} sm={6} xs={6}>
+                <Col lg={6} md={6} sm={6} xs={12}>
                   <div className={styles.packageListWrapper}>
                     <ul className={styles.packageList}>
                       <ListItem text="Unlimited Logo Design Concepts" />
@@ -36,7 +36,7 @@ function AllInOne() {
                     </ul>
                   </div>
                 </Col>
-                <Col lg={6} md={6} sm={6} xs={6}>
+                <Col lg={6} md={6} sm={6} xs={12}>
                   <div className={styles.packageListWrapper}>
                     <ul className={styles.packageList}>
                       <ListItem text="Facebook Page Design" />
