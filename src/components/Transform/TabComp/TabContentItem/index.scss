@@ -2,6 +2,7 @@
   .transformTabContentTextWrapper {
     padding-top: 25px;
     text-align: left;
+    position: relative;
     z-index: 1;
 
     h3 {
@@ -18,8 +19,11 @@
       color: #333;
       padding: 28px 0;
       line-height: 27px;
-      position: relative;
-      z-index: 1;
     }
+  }
+
+  .transformTabContentImgWrapper {
+    position: relative;
+    z-index: 1;
   }
 }

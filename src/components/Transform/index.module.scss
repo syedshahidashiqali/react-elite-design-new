@@ -44,6 +44,8 @@
     margin-left: 0;
     width: 90%;
     text-align: center;
+    position: relative;
+    z-index: 1;
 
     h2 {
       color: #e5054a;
@@ -83,5 +85,28 @@
 @media (min-width: 992px) {
   .col-lg-10 {
     width: 70%;
+  }
+}
+
+@media (max-width: 750px) {
+  .transformMainWrapper {
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+
+    .colWrapper {
+      & > div {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+
+    .textWrapper {
+      margin-left: 0;
+      width: 100%;
+    }
   }
 }
