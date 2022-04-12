@@ -8,23 +8,25 @@ function Transform() {
     <div className={styles.transformMainWrapper}>
       <Container>
         <Row>
-          <Col lg={10} sm={10} xs={12}>
-            <div className={styles.textWrapper}>
-              <h2>TRANSFORMING YOUR PRESENCE</h2>
-              <h4>
-                Be It Budding Startups Or Established Enterprises, We Create
-                <br />
-                Fascinating For Everyone
-              </h4>
-              <p>
-                We have streamlined our processes to achieve beautiful designs,
-                smooth development and impactful results in the most effective
-                manner. We take our work seriously and do not miss out on
-                deadlines and maintain a 100% satisfaction ratio for our
-                clients.
-              </p>
-            </div>
-          </Col>
+          <div className={styles.colWrapper}>
+            <Col lg={10} sm={10} xs={12}>
+              <div className={styles.textWrapper}>
+                <h2>TRANSFORMING YOUR PRESENCE</h2>
+                <h4>
+                  Be It Budding Startups Or Established Enterprises, We Create
+                  <br />
+                  Fascinating For Everyone
+                </h4>
+                <p>
+                  We have streamlined our processes to achieve beautiful
+                  designs, smooth development and impactful results in the most
+                  effective manner. We take our work seriously and do not miss
+                  out on deadlines and maintain a 100% satisfaction ratio for
+                  our clients.
+                </p>
+              </div>
+            </Col>
+          </div>
         </Row>
         <Row>
           <TabCom />

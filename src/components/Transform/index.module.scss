@@ -8,6 +8,13 @@
   position: relative;
   overflow: hidden;
 
+  .colWrapper {
+    & > div {
+      width: 70%;
+      margin-left: 125px;
+    }
+  }
+
   &::before {
     background-image: url(../../images/transformBg1.png);
     background-size: contain;
@@ -30,10 +37,14 @@
     height: 282px;
     bottom: 0;
     left: 0;
-    z-index: 1;
+    z-index: 0;
   }
 
   .textWrapper {
+    margin-left: 0;
+    width: 90%;
+    text-align: center;
+
     h2 {
       color: #e5054a;
       font-size: 20px;
@@ -66,5 +77,11 @@
         font-size: 21px;
       }
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-10 {
+    width: 70%;
   }
 }

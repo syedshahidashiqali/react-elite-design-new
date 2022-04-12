@@ -9,6 +9,7 @@ import BrandingBanner from "./components/BrandingBanner";
 import Portfolio from "./components/Portfolio";
 import AllInOne from "./components/AllInOne";
 import Transform from "./components/Transform";
+import BotSlider from "./components/BottomSlider";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <BrandingBanner />
       <Portfolio />
       <Transform />
+      <BotSlider />
     </>
   );
 }
