@@ -56,7 +56,7 @@ function FooterTop() {
                 Rated 4.9/5.0 by 300+ clients for Design and Marketing Services
                 on various platforms.
               </p>
-              <img className="img-fluid" src={footerImg} alt="" />
+              <img className="img-fluid" src={footerImg} alt="footer brand" />
             </div>
           </Col>
         </Row>
