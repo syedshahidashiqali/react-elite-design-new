@@ -11,12 +11,16 @@ import AllInOne from "./components/AllInOne";
 import Transform from "./components/Transform";
 import BotSlider from "./components/BottomSlider";
 import FooterMain from "./components/Footer";
+import { useState } from "react";
+import CouponModal from "./components/Modal";
 
 function App() {
+  const [show, setShow] = useState(false);
+
   return (
     <>
       <Header />
-      <Banner />
+      <Banner setShow={setShow} />
       <Experiance />
       <HeadingCenter
         headFirst="Our Packages"
@@ -25,7 +29,7 @@ function App() {
       />
       <CardTabsMain />
       <BrandingBanner />
-      <AllInOne />
+      <AllInOne setShow={setShow} />
       <BrandingBanner />
       <WebDesIndustry />
       <BrandingBanner />
@@ -33,6 +37,7 @@ function App() {
       <Transform />
       <BotSlider />
       <FooterMain />
+      <CouponModal show={show} setShow={setShow} />
     </>
   );
 }

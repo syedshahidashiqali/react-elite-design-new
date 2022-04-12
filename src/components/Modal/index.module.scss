@@ -1,0 +1,20 @@
+.modalBodyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+
+  .modalTextWrapper {
+    text-align: center;
+    text-transform: uppercase;
+
+    h6 {
+      font-size: 90%;
+    }
+  }
+
+  .formWrapperImg {
+    display: flex;
+  }
+}

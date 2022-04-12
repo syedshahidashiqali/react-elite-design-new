@@ -1,0 +1,57 @@
+.couponFormWrapper {
+  input {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background: #f8e9ff;
+    padding: 0 10px 0 45px;
+    font-size: 12px;
+
+    &:focus {
+      background: #f8e9ff;
+    }
+  }
+
+  .iconWrapper {
+    position: absolute;
+    // left: 22px;
+    z-index: 1;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    background-image: linear-gradient(to right, #32004a, #c653ff);
+  }
+  textarea {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background: #f8e9ff;
+    padding: 0 10px 0 45px;
+    font-size: 12px;
+
+    &:focus {
+      background: #f8e9ff;
+    }
+  }
+  label {
+    color: #777;
+    font-size: 80%;
+  }
+
+  button {
+    width: 100%;
+    color: #fff;
+    border-color: #c653ff;
+    padding: 13px 30px;
+    background-image: linear-gradient(to right, #32004a, #c653ff);
+    background-color: #c653ff;
+
+    &:hover {
+      background: #3d0657;
+      border-color: #3d0657;
+    }
+  }
+}

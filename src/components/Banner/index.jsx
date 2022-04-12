@@ -2,7 +2,7 @@ import styles from "./index.module.css";
 import bannerimg from "../../images/web1.png";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
-function Banner() {
+function Banner({ setShow }) {
   return (
     <div className={styles.mainbanner}>
       <Container>
@@ -32,7 +32,11 @@ function Banner() {
                   <Button variant="primary" type="submit">
                     Submit
                   </Button>
-                  <Button variant="primary" type="submit">
+                  <Button
+                    variant="primary"
+                    type="submit"
+                    onClick={() => setShow(true)}
+                  >
                     Chat with Us
                   </Button>
                 </div>

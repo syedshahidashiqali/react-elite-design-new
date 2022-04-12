@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import { Button } from "react-bootstrap";
 import RotDot from "../../RotDot";
 
-export default function ComboBanner() {
+export default function ComboBanner({ setShow }) {
   return (
     <Fade right duration={2000}>
       <div className={styles.comboBannerMainWrapper}>
@@ -44,7 +44,7 @@ export default function ComboBanner() {
             </li>
           </ul>
           <div className={styles.btnWrapper}>
-            <Button>START PROJECT</Button>
+            <Button onClick={() => setShow(true)}>START PROJECT</Button>
           </div>
         </div>
         <RotDot
