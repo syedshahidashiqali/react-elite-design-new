@@ -11,11 +11,17 @@ import AllInOne from "./components/AllInOne";
 import Transform from "./components/Transform";
 import BotSlider from "./components/BottomSlider";
 import FooterMain from "./components/Footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import CouponModal from "./components/Modal";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    AOS.init();
+  });
 
   return (
     <>
