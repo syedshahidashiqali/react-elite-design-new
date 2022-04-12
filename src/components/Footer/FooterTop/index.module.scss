@@ -133,3 +133,40 @@
     }
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .footerTopMainWrapper {
+    & > div {
+      & > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        & > div {
+          width: 100%;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .footerTopMainWrapper {
+    .socialIconsWrapper {
+      & > span {
+        a {
+          width: 25px;
+
+          &::before {
+            width: 20px;
+          }
+          &::after {
+            width: 25px;
+          }
+        }
+      }
+    }
+  }
+}
