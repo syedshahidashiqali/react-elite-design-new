@@ -12,3 +12,9 @@
     transform: rotate(359deg);
   }
 }
+
+@media (max-width: 750px) {
+  .rotImgWrapper {
+    display: none;
+  }
+}
