@@ -32,7 +32,7 @@ function BrandingBanner() {
                   <li>
                     <a href="">
                       <FontAwesomeIcon icon={faPhone} color="#000" />
-                      <span>LIVE CHAT</span>
+                      <span>254-274-5646</span>
                     </a>
                   </li>
                 </ul>
