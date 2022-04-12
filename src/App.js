@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio";
 import AllInOne from "./components/AllInOne";
 import Transform from "./components/Transform";
 import BotSlider from "./components/BottomSlider";
+import FooterMain from "./components/Footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Portfolio />
       <Transform />
       <BotSlider />
+      <FooterMain />
     </>
   );
 }
