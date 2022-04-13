@@ -1,26 +1,72 @@
-.headingCenter{
-    text-align: center;
-    padding: 50px 0;    
+.headingCenter {
+  text-align: center;
+  padding: 50px 0;
 }
-.headingCenter small{
-    margin-bottom: 0;
-    font-weight: 500;
-    font-size: 1.5rem;   
-    display: block;     
+.headingCenter small {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: block;
 }
-.headingCenter span{
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent !important;
-    font-weight: 700;
-    background-image: linear-gradient(to right, #b83d96, #3c427a);
-    font-size: 45px;
-    font-weight: 700;
-    margin-bottom: 10px;    
+.headingCenter span {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #b83d96, #3c427a);
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-.headingCenter p{
-    margin-bottom: 0;
-    font-weight: 400;
-    font-size: 16px;    
+.headingCenter p {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 991px) {
+  .headingCenter span {
+    font-size: 160%;
+  }
+
+  .headingCenter p {
+    font-size: 90%;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .headingCenter small {
+    font-size: 120%;
+  }
+  .headingCenter span {
+    font-size: 150%;
+  }
+
+  .headingCenter p {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 402px) {
+  .headingCenter span {
+    font-size: 130%;
+  }
+}
+
+@media only screen and (max-width: 352px) {
+  .headingCenter span {
+    font-size: 120%;
+  }
+
+  .headingCenter p {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 327px) {
+  .headingCenter span {
+    font-size: 110%;
+  }
 }
