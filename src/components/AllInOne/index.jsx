@@ -10,7 +10,11 @@ function AllInOne({ setShow }) {
       <Container>
         <Row>
           <Col lg={7} xs={12}>
-            <div className={styles.leftSideWrapper}>
+            <div
+              className={styles.leftSideWrapper}
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <h5>All in one</h5>
               <h3>COMBO</h3>
               <p>

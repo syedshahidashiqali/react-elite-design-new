@@ -16,7 +16,11 @@ function TabCom() {
   return (
     <div className="transformMainTabsWrapper">
       <Tab.Container defaultActiveKey="brief">
-        <div className="transformServiceTabWrapper">
+        <div
+          className="transformServiceTabWrapper"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
           <Nav variant="pills">
             <Row>
               <TabItem

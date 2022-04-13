@@ -9,11 +9,11 @@ function Banner({ setShow }) {
         <Row>
           <Col md={7} sm={7} xs={12}>
             <div className={styles.BannerText}>
-              <span>
+              <span data-aos="fade-up" data-aos-duration="1200">
                 Website Design
                 <br /> Services
               </span>
-              <p>
+              <p data-aos="fade-up" data-aos-duration="1700">
                 We Designed Websites that maximize your ROI At Elite Design Hub,
                 our website design and development experts create websites
                 leading to a sublime user experience

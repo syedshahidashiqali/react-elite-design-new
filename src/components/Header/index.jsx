@@ -1,10 +1,7 @@
 import { faPhone, faComment } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./index.module.css";
-import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
 import logo from "../../images/logo.gif";
-import Pulse from "react-reveal/Pulse";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Header() {

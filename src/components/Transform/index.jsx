@@ -10,7 +10,11 @@ function Transform() {
         <Row>
           <div className={styles.colWrapper}>
             <Col lg={10} sm={10} xs={12}>
-              <div className={styles.textWrapper}>
+              <div
+                className={styles.textWrapper}
+                data-aos="fade-down"
+                data-aos-duration="2000"
+              >
                 <h2>TRANSFORMING YOUR PRESENCE</h2>
                 <h4>
                   Be It Budding Startups Or Established Enterprises, We Create

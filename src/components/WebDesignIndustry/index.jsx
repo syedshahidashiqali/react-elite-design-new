@@ -22,8 +22,8 @@ function WebDesIndustry() {
         <Row>
           <Col md={12} sm={12} xs={12}>
             <div className="headingTextWrapper">
-              <h5>Web Design Industry</h5>
-              <p>
+              <h5 data-aos="fade-down">Web Design Industry</h5>
+              <p data-aos="fade-up">
                 If you are on the lookout for a website that aligns with your
                 business and connects with the customers at the same time, you
                 have come to the right platform. Take our word for it Elite

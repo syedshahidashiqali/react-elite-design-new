@@ -1,8 +1,6 @@
 import styles from "./index.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import { Zoom } from "react-reveal";
-import { useRef, useState } from "react";
-import { useIntersection } from "../../customHooks/useIntersection";
+import { useState } from "react";
 import small1 from "../../images/small1.webp";
 import small2 from "../../images/small2.webp";
 import small3 from "../../images/small3.webp";
@@ -35,9 +33,6 @@ function Portfolio() {
     small12,
   ];
 
-  const ref = useRef();
-  const inViewport = useIntersection(ref, "0px");
-
   const [lightboxController, setLightboxController] = useState({
     toggler: false,
     slide: 1,
@@ -53,20 +48,16 @@ function Portfolio() {
     <div className={styles.portfolioMainWrapper}>
       <Container>
         <Row>
-          <Col
-            className="text-center"
-            lg={12}
-            md={12}
-            sm={12}
-            xs={12}
-            ref={ref}
-          >
-            <Zoom bottom collapse when={inViewport} duration={1500}>
-              <div className={styles.textWrapper}>
-                <h4>Our Services For Startups</h4>
-                <h5>SME & Entrepreneurs</h5>
-              </div>
-            </Zoom>
+          <Col className="text-center" lg={12} md={12} sm={12} xs={12}>
+            <div
+              className={styles.textWrapper}
+              data-aos="zoom-in-down"
+              data-aos-duration="500"
+              data-aos-easing="linear"
+            >
+              <h4>Our Services For Startups</h4>
+              <h5>SME & Entrepreneurs</h5>
+            </div>
           </Col>
         </Row>
         <Row className="mt-5">
