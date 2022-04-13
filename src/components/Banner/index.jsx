@@ -1,8 +1,31 @@
 import styles from "./index.module.scss";
 import bannerimg from "../../images/web1.png";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { useRef } from "react";
+import axios from "axios";
 
 function Banner({ setShow }) {
+  const usernameRef = useRef(null);
+  const phoneRef = useRef(null);
+  const emailRef = useRef(null);
+
+  const submitHandler = async (e) => {
+    e.preventDefault();
+    const name = usernameRef.current.value;
+    const phone = phoneRef.current.value;
+    const email = emailRef.current.value;
+
+    await axios
+      .post(
+        "https://test-urls.com/elitedesignhub/elite-design-api/public/api/email-form-submit",
+        {
+          name,
+          phone,
+          email,
+        }
+      )
+      .then((res) => console.log(52, res));
+  };
   return (
     <div className={styles.mainbanner}>
       <Container>
@@ -17,15 +40,30 @@ function Banner({ setShow }) {
                 our website design and development experts create websites
                 leading to a sublime user experience
               </p>
-              <Form>
+              <Form onSubmit={submitHandler}>
                 <Form.Group controlId="formBasicName">
-                  <Form.Control type="text" placeholder="Your Name" />
+                  <Form.Control
+                    type="text"
+                    placeholder="Your Name"
+                    ref={usernameRef}
+                    // required
+                  />
                 </Form.Group>
                 <Form.Group controlId="formBasicNumber">
-                  <Form.Control type="number" placeholder="Your Phone Number" />
+                  <Form.Control
+                    type="text"
+                    placeholder="Your Phone Number"
+                    ref={phoneRef}
+                    // required
+                  />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Control type="email" placeholder="Your Email Address" />
+                  <Form.Control
+                    type="email"
+                    placeholder="Your Email Address"
+                    ref={emailRef}
+                    // required
+                  />
                 </Form.Group>
                 <div className={styles.mybtn}>
                   <Button variant="primary" type="submit">
