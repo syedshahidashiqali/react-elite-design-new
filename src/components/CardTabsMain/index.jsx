@@ -22,7 +22,7 @@ function CardTabsMain() {
         >
           <Tab eventKey="home" title="Website Packages">
             <Row>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Essential"
                   price="$499"
@@ -67,7 +67,7 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Team"
                   price="$199"
@@ -120,7 +120,7 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Corporate"
                   price="$699"
@@ -177,8 +177,6 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-            </Row>
-            <Row>
               <Col md={4} sm={4} xs={12}>
                 <CardBox
                   ribbonTitle="Business"
@@ -439,7 +437,7 @@ function CardTabsMain() {
           </Tab>
           <Tab eventKey="profile" title="E-Commerce Packages">
             <Row>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Essential"
                   price="$499"
@@ -484,7 +482,7 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Team"
                   price="$199"
@@ -537,7 +535,7 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Corporate"
                   price="$699"
@@ -594,9 +592,7 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-            </Row>
-            <Row>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Business"
                   price="$1299.00"
@@ -649,7 +645,7 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Enterprise"
                   price="$1999.00"
@@ -714,7 +710,7 @@ function CardTabsMain() {
                   </li>
                 </CardBox>
               </Col>
-              <Col md={4} sm={4} xs={12}>
+              <Col md={4} sm={6} xs={12}>
                 <CardBox
                   ribbonTitle="Elite"
                   price="$2499.00"
@@ -856,7 +852,7 @@ function CardTabsMain() {
           </Tab>
         </Tabs>
         <Row>
-          <Col md={12} sm={12} xs={12}>
+          <Col md={12} sm={12} xs={12} className="text-center mt-5">
             <ButtonMain text="LET'S GET STARTED" />
           </Col>
         </Row>

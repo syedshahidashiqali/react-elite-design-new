@@ -22,3 +22,24 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 991px) {
+  .mainTabs .nav-tabs li:first-child {
+    margin-right: 6px;
+  }
+  .mainTabs .nav-tabs .nav-link {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 767px) {
+  .mainTabs .tab-content > .tab-pane > .row {
+    display: flex;
+    justify-content: center;
+  }
+  .mainTabs .tab-content > .tab-pane > .row > .col-md-4 {
+    width: 50%;
+  }
+}
