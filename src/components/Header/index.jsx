@@ -10,7 +10,7 @@ function Header() {
       <div className={styles.navigation}>
         <Container>
           <Row>
-            <Col md={2} sm={2} xs={12}>
+            <Col md={2} sm={2} xs={4}>
               <div className={styles.logo}>
                 <img
                   src={logo}
@@ -19,7 +19,7 @@ function Header() {
                 ></img>
               </div>
             </Col>
-            <Col lg={10} md={10} sm={10} xs={12}>
+            <Col lg={10} md={10} sm={10} xs={8}>
               <div className={styles.callright}>
                 <div className={styles.callTag}>
                   <a href="#">
