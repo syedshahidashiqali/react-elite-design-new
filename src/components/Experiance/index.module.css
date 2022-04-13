@@ -1,8 +1,20 @@
-.experiance{
-    padding: 2% 0;    
+.experiance {
+  padding: 2% 0;
 }
-.experiancetext span{
-    font-size: 1.25rem;
-    font-weight: 500;    
+.experiancetext span {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
-.experiancafterimg img{}
+
+@media only screen and (max-width: 991px) {
+  .experiance .experiancetext span {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .experiance .experiancetext {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}

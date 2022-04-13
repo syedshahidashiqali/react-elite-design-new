@@ -7,14 +7,14 @@ function Experiance() {
     <div className={styles.experiance}>
       <Container>
         <Row>
-          <Col md={3} sm={3} xs={12}>
+          <Col md={3} sm={12} xs={12}>
             <div className={styles.experiancetext}>
               <span>
                 Over 10 Years of Experience in the Website Design Industry
               </span>
             </div>
           </Col>
-          <Col md={9} sm={9} xs={12}>
+          <Col md={9} sm={12} xs={12}>
             <div className={styles.experiancafterimg}>
               <img
                 src={experianceimg}
