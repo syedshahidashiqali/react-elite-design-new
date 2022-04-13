@@ -33,14 +33,14 @@ function App() {
         headSec="Market’s Most Competitive Prices"
         headThird="PARTNER WITH US AND KEEP UP WITH THE LATEST MARKETING TRENDS WITHIN YOUR INDUSTRY"
       />
-      <CardTabsMain />
+      <CardTabsMain setShow={setShow} />
       <BrandingBanner />
       <AllInOne setShow={setShow} />
       <BrandingBanner />
-      <WebDesIndustry />
+      <WebDesIndustry setShow={setShow} />
       <BrandingBanner />
-      <Portfolio />
-      <Transform />
+      <Portfolio setShow={setShow} />
+      <Transform setShow={setShow} />
       <BotSlider />
       <FooterMain />
       <CouponModal show={show} setShow={setShow} />

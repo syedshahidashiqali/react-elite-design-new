@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import TabCom from "./TabComp";
 import RotDotWhite from "../RotDotWhite";
 
-function Transform() {
+function Transform({ setShow }) {
   return (
     <div className={styles.transformMainWrapper}>
       <Container>
@@ -33,7 +33,7 @@ function Transform() {
           </div>
         </Row>
         <Row>
-          <TabCom />
+          <TabCom setShow={setShow} />
         </Row>
         <RotDotWhite
           stylesfromProps1={{ top: "10%", left: "3%" }}

@@ -8,7 +8,8 @@ import icon3 from "../../images/icon3.png";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ButtonMain from "../ButtonMain";
-function CardTabsMain() {
+
+function CardTabsMain({ setShow }) {
   const [key, setKey] = useState("home");
 
   return (
@@ -24,6 +25,7 @@ function CardTabsMain() {
             <Row>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Essential"
                   price="$499"
                   delPrice="$1250.00"
@@ -69,6 +71,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Team"
                   price="$199"
                   delPrice="$500.00"
@@ -122,6 +125,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Corporate"
                   price="$699"
                   delPrice="$1750.00"
@@ -179,6 +183,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={4} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Business"
                   price="$1299.00"
                   delPrice="$3250.00"
@@ -232,6 +237,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={4} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Enterprise"
                   price="$1999.00"
                   delPrice="$5000.00"
@@ -297,6 +303,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={4} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Elite"
                   price="$2499.00"
                   delPrice="$6250.00"
@@ -439,6 +446,7 @@ function CardTabsMain() {
             <Row>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Essential"
                   price="$499"
                   delPrice="$1250.00"
@@ -484,6 +492,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Team"
                   price="$199"
                   delPrice="$500.00"
@@ -537,6 +546,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Corporate"
                   price="$699"
                   delPrice="$1750.00"
@@ -594,6 +604,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Business"
                   price="$1299.00"
                   delPrice="$3250.00"
@@ -647,6 +658,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Enterprise"
                   price="$1999.00"
                   delPrice="$5000.00"
@@ -712,6 +724,7 @@ function CardTabsMain() {
               </Col>
               <Col md={4} sm={6} xs={12}>
                 <CardBox
+                  setShow={setShow}
                   ribbonTitle="Elite"
                   price="$2499.00"
                   delPrice="$6250.00"
@@ -853,7 +866,7 @@ function CardTabsMain() {
         </Tabs>
         <Row>
           <Col md={12} sm={12} xs={12} className="text-center mt-5">
-            <ButtonMain text="LET'S GET STARTED" />
+            <ButtonMain text="LET'S GET STARTED" setShow={setShow} />
           </Col>
         </Row>
       </Container>

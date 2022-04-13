@@ -2,7 +2,7 @@ import "./index.scss";
 import { Row, Col } from "react-bootstrap";
 import ButtonMain from "../../../ButtonMain";
 
-function TabContentItem({ head, para, img }) {
+function TabContentItem({ head, para, img, setShow }) {
   return (
     <div className="transformTabContentWrapper">
       <Row>
@@ -14,7 +14,7 @@ function TabContentItem({ head, para, img }) {
           >
             <h3>{head}</h3>
             <p>{para}</p>
-            <ButtonMain text="LET'S GET STARTED" />
+            <ButtonMain text="LET'S GET STARTED" setShow={setShow} />
           </div>
         </Col>
         <Col lg={7} md={12} sm={12} xs={12}>

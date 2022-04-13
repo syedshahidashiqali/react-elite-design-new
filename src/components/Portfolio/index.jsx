@@ -17,7 +17,7 @@ import Box from "./Box";
 import ButtonMain from "../ButtonMain";
 import FsLightbox from "fslightbox-react";
 
-function Portfolio() {
+function Portfolio({ setShow }) {
   const images = [
     small1,
     small2,
@@ -82,7 +82,7 @@ function Portfolio() {
         />
         <Row>
           <Col className="text-center mt-5" md={12} sm={12} xs={12}>
-            <ButtonMain text="LET'S GET STARTED" />
+            <ButtonMain text="LET'S GET STARTED" setShow={setShow} />
           </Col>
         </Row>
       </Container>
