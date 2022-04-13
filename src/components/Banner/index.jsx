@@ -1,4 +1,4 @@
-import styles from "./index.module.css";
+import styles from "./index.module.scss";
 import bannerimg from "../../images/web1.png";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
@@ -7,11 +7,10 @@ function Banner({ setShow }) {
     <div className={styles.mainbanner}>
       <Container>
         <Row>
-          <Col md={7} sm={7} xs={12}>
+          <Col md={7} sm={12} xs={12}>
             <div className={styles.BannerText}>
               <span data-aos="fade-up" data-aos-duration="1200">
-                Website Design
-                <br /> Services
+                Website Design Services
               </span>
               <p data-aos="fade-up" data-aos-duration="1700">
                 We Designed Websites that maximize your ROI At Elite Design Hub,
@@ -43,7 +42,7 @@ function Banner({ setShow }) {
               </Form>
             </div>
           </Col>
-          <Col md={5} sm={5} xs={12}>
+          <Col md={5} sm={12} xs={12}>
             <div className={styles.bannerimg}>
               <img
                 src={bannerimg}

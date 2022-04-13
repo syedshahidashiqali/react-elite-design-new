@@ -2,7 +2,6 @@
   position: relative;
   z-index: 1;
   padding: 7% 0;
-  /* background: url(../images/banner.jpg) no-repeat; */
   background-position: center;
   background-size: cover;
   background-image: -webkit-linear-gradient(
@@ -32,7 +31,7 @@
 .BannerText p {
   color: #ffffff;
   font-size: 16px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   padding-right: 155px;
 }
 .BannerText input[type="text"],
@@ -116,4 +115,87 @@ input[type="email"] {
   color: inherit;
   background-color: inherit;
   border-color: inherit;
+}
+
+@media only screen and (max-width: 991px) {
+  .mainbanner .BannerText > p {
+    width: 100%;
+    padding-right: 0;
+  }
+  .mainbanner .BannerText form > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainbanner .BannerText form > div > input,
+  button {
+    width: 50%;
+  }
+
+  .mainbanner .BannerText form > div > button {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mainbanner .BannerText form > div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mainbanner .BannerText form > div > input {
+    width: 100%;
+  }
+  .mainbanner {
+    background-image: -webkit-linear-gradient(
+      -28deg,
+      #750057 0,
+      #394279 100%,
+      #00b0ff 60%,
+      #f6f6f6 60%
+    );
+
+    .bannerimg img {
+      position: relative;
+      width: 100%;
+      top: 25px;
+    }
+  }
+  .mainbanner .BannerText {
+    font-size: 100%;
+  }
+  .mainbanner .BannerText > p,
+  span {
+    width: 100%;
+  }
+
+  .mainbanner .BannerText > span {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .mainbanner .BannerText form > div > input {
+    font-size: 90%;
+  }
+
+  .mainbanner .BannerText form > div > button {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 352px) {
+  .mainbanner .BannerText form > div > button {
+    font-size: 70%;
+  }
+
+  .mainbanner .BannerText > p {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 352px) {
+  .mainbanner .BannerText form > div > button {
+    font-size: 60%;
+  }
 }
