@@ -28,7 +28,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Essential"
-                  price="$499"
+                  price="499"
                   delPrice="$1250.00"
                   iconImg={icon1}
                 >
@@ -75,7 +75,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Team"
-                  price="$199"
+                  price="199"
                   delPrice="$500.00"
                   iconImg={icon2}
                 >
@@ -130,7 +130,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Corporate"
-                  price="$699"
+                  price="699"
                   delPrice="$1750.00"
                   iconImg={icon3}
                 >
@@ -189,7 +189,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Business"
-                  price="$1299.00"
+                  price="1299"
                   delPrice="$3250.00"
                   iconImg={icon1}
                 >
@@ -244,7 +244,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Enterprise"
-                  price="$1999.00"
+                  price="1999"
                   delPrice="$5000.00"
                   iconImg={icon2}
                 >
@@ -311,7 +311,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Elite"
-                  price="$2499.00"
+                  price="2499"
                   delPrice="$6250.00"
                   iconImg={icon3}
                 >
@@ -455,7 +455,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Essential"
-                  price="$499"
+                  price="499"
                   delPrice="$1250.00"
                   iconImg={icon1}
                 >
@@ -502,7 +502,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Team"
-                  price="$199"
+                  price="199"
                   delPrice="$500.00"
                   iconImg={icon2}
                 >
@@ -557,7 +557,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Corporate"
-                  price="$699"
+                  price="699"
                   delPrice="$1750.00"
                   iconImg={icon3}
                 >
@@ -616,7 +616,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Business"
-                  price="$1299.00"
+                  price="1299"
                   delPrice="$3250.00"
                   iconImg={icon1}
                 >
@@ -671,7 +671,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Enterprise"
-                  price="$1999.00"
+                  price="1999"
                   delPrice="$5000.00"
                   iconImg={icon2}
                 >
@@ -738,7 +738,7 @@ function CardTabsMain({ setShow, setData }) {
                   setShow={setShow}
                   setData={setData}
                   ribbonTitle="Elite"
-                  price="$2499.00"
+                  price="2499"
                   delPrice="$6250.00"
                   iconImg={icon3}
                 >

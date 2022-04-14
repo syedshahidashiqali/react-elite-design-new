@@ -20,7 +20,7 @@ function CardBox({
             <Row>
               <Col lg={6} md={6} sm={6} xs={12}>
                 <div className={styles.priceTilte}>
-                  <small>{price}</small>
+                  <small>${price}.00</small>
                 </div>
               </Col>
               <Col lg={6} md={6} sm={6} xs={12}>
@@ -47,7 +47,7 @@ function CardBox({
           href="#"
           onClick={(e) => {
             e.preventDefault();
-            setData({ package: ribbonTitle, price: delPrice });
+            setData({ package: ribbonTitle, price: price });
             setShow(true);
           }}
         >

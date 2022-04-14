@@ -24,7 +24,7 @@ function Banner({ setShow }) {
           email,
         }
       )
-      .then((res) => console.log(52, res));
+      .then((res) => console.log(52, res.data.message));
   };
   return (
     <div className={styles.mainbanner}>
@@ -46,7 +46,7 @@ function Banner({ setShow }) {
                     type="text"
                     placeholder="Your Name"
                     ref={usernameRef}
-                    // required
+                    required
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicNumber">
@@ -54,7 +54,7 @@ function Banner({ setShow }) {
                     type="text"
                     placeholder="Your Phone Number"
                     ref={phoneRef}
-                    // required
+                    required
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
@@ -62,7 +62,7 @@ function Banner({ setShow }) {
                     type="email"
                     placeholder="Your Email Address"
                     ref={emailRef}
-                    // required
+                    required
                   />
                 </Form.Group>
                 <div className={styles.mybtn}>

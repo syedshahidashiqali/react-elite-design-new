@@ -48,7 +48,7 @@ export default function ComboBanner({ setShow, setData }) {
         <div className={styles.btnWrapper}>
           <Button
             onClick={() => {
-              setData({ package: "Combo Packages", price: "$999" });
+              setData({ package: "Combo Packages", price: 999 });
               setShow(true);
             }}
           >

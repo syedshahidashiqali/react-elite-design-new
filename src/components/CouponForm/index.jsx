@@ -19,17 +19,20 @@ export default function CouponForm({ data, setData }) {
     const email = emailRef.current.value;
     const message = messageRef.current.value;
 
-    await axios
-      .post(
-        "https://test-urls.com/elitedesignhub/elite-design-api/public/api/email-form-submit",
-        {
-          name,
-          phone,
-          email,
-          message,
-        }
-      )
-      .then((res) => console.log(res.data.message));
+    const url =
+      "https://test-urls.com/elitedesignhub/elite-design-api/public/api/email-form-submit-with-package";
+
+    const body = {
+      name,
+      phone,
+      email,
+      message,
+      package_name: data?.package,
+      package_price: parseFloat(data?.price).toFixed(2),
+    };
+
+    console.log(32, body);
+    await axios.post(url, body).then((res) => console.log(res.data.message));
   };
   return (
     <div className="couponFormWrapper">

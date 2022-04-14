@@ -18,7 +18,7 @@ import "aos/dist/aos.css";
 
 function App() {
   const [show, setShow] = useState(false);
-  const [data, setData] = useState(null);
+  const [data, setData] = useState("");
 
   useEffect(() => {
     AOS.init();
