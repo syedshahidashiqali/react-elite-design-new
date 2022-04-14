@@ -31,7 +31,7 @@ export default function CouponForm({ data, setData }) {
       package_price: parseFloat(data?.price).toFixed(2),
     };
 
-    console.log(32, body);
+    // console.log(32, body);
     await axios.post(url, body).then((res) => console.log(res.data.message));
   };
   return (
