@@ -1,7 +1,15 @@
 import { Row, Col } from "react-bootstrap";
 import styles from "./index.module.css";
 
-function CardBox({ ribbonTitle, price, delPrice, iconImg, children, setShow }) {
+function CardBox({
+  ribbonTitle,
+  price,
+  delPrice,
+  iconImg,
+  children,
+  setShow,
+  setData,
+}) {
   return (
     <div className={styles.pricemainBox}>
       <div className={styles.titleHeading}>{ribbonTitle}</div>
@@ -39,6 +47,7 @@ function CardBox({ ribbonTitle, price, delPrice, iconImg, children, setShow }) {
           href="#"
           onClick={(e) => {
             e.preventDefault();
+            setData({ package: ribbonTitle, price: delPrice });
             setShow(true);
           }}
         >

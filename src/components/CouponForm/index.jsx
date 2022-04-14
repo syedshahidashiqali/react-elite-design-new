@@ -5,7 +5,8 @@ import { faEnvelope, faPhone, faUser } from "@fortawesome/free-solid-svg-icons";
 import { useRef } from "react";
 import axios from "axios";
 
-export default function CouponForm() {
+export default function CouponForm({ data, setData }) {
+  console.log(9, data);
   const usernameRef = useRef(null);
   const phoneRef = useRef(null);
   const emailRef = useRef(null);

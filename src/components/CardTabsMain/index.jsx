@@ -9,7 +9,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ButtonMain from "../ButtonMain";
 
-function CardTabsMain({ setShow }) {
+function CardTabsMain({ setShow, setData }) {
   const [key, setKey] = useState("home");
 
   return (
@@ -26,6 +26,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Essential"
                   price="$499"
                   delPrice="$1250.00"
@@ -72,6 +73,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Team"
                   price="$199"
                   delPrice="$500.00"
@@ -126,6 +128,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Corporate"
                   price="$699"
                   delPrice="$1750.00"
@@ -184,6 +187,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={4} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Business"
                   price="$1299.00"
                   delPrice="$3250.00"
@@ -238,6 +242,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={4} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Enterprise"
                   price="$1999.00"
                   delPrice="$5000.00"
@@ -304,6 +309,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={4} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Elite"
                   price="$2499.00"
                   delPrice="$6250.00"
@@ -447,6 +453,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Essential"
                   price="$499"
                   delPrice="$1250.00"
@@ -493,6 +500,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Team"
                   price="$199"
                   delPrice="$500.00"
@@ -547,6 +555,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Corporate"
                   price="$699"
                   delPrice="$1750.00"
@@ -605,6 +614,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Business"
                   price="$1299.00"
                   delPrice="$3250.00"
@@ -659,6 +669,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Enterprise"
                   price="$1999.00"
                   delPrice="$5000.00"
@@ -725,6 +736,7 @@ function CardTabsMain({ setShow }) {
               <Col md={4} sm={6} xs={12}>
                 <CardBox
                   setShow={setShow}
+                  setData={setData}
                   ribbonTitle="Elite"
                   price="$2499.00"
                   delPrice="$6250.00"

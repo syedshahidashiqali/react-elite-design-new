@@ -18,6 +18,7 @@ import "aos/dist/aos.css";
 
 function App() {
   const [show, setShow] = useState(false);
+  const [data, setData] = useState(null);
 
   useEffect(() => {
     AOS.init();
@@ -33,9 +34,9 @@ function App() {
         headSec="Market’s Most Competitive Prices"
         headThird="PARTNER WITH US AND KEEP UP WITH THE LATEST MARKETING TRENDS WITHIN YOUR INDUSTRY"
       />
-      <CardTabsMain setShow={setShow} />
+      <CardTabsMain setShow={setShow} setData={setData} />
       <BrandingBanner />
-      <AllInOne setShow={setShow} />
+      <AllInOne setShow={setShow} setData={setData} />
       <BrandingBanner />
       <WebDesIndustry setShow={setShow} />
       <BrandingBanner />
@@ -43,7 +44,12 @@ function App() {
       <Transform setShow={setShow} />
       <BotSlider />
       <FooterMain />
-      <CouponModal show={show} setShow={setShow} />
+      <CouponModal
+        show={show}
+        setShow={setShow}
+        data={data}
+        setData={setData}
+      />
     </>
   );
 }

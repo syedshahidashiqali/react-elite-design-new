@@ -2,7 +2,7 @@ import styles from "./index.module.scss";
 import { Button } from "react-bootstrap";
 import RotDot from "../../RotDot";
 
-export default function ComboBanner({ setShow }) {
+export default function ComboBanner({ setShow, setData }) {
   return (
     <div
       className={styles.comboBannerMainWrapper}
@@ -46,7 +46,14 @@ export default function ComboBanner({ setShow }) {
           </li>
         </ul>
         <div className={styles.btnWrapper}>
-          <Button onClick={() => setShow(true)}>START PROJECT</Button>
+          <Button
+            onClick={() => {
+              setData({ package: "Combo Packages", price: "$999" });
+              setShow(true);
+            }}
+          >
+            START PROJECT
+          </Button>
         </div>
       </div>
       <RotDot

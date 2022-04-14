@@ -2,7 +2,7 @@ import styles from "./index.module.scss";
 import { Container, Row, Col, Modal } from "react-bootstrap";
 import CouponForm from "../CouponForm";
 
-export default function CouponModal({ show, setShow }) {
+export default function CouponModal({ show, setShow, data, setData }) {
   const handleClose = () => setShow(false);
   return (
     <Modal show={show} onHide={handleClose}>
@@ -19,7 +19,7 @@ export default function CouponModal({ show, setShow }) {
               </Col>
             </Row>
           </div>
-          <CouponForm />
+          <CouponForm data={data} setData={setData} />
         </Container>
       </Modal.Body>
     </Modal>
