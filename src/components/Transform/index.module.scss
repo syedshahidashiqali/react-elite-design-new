@@ -82,9 +82,21 @@
   }
 }
 
-@media (min-width: 992px) {
-  .col-lg-10 {
-    width: 70%;
+@media (max-width: 991px) {
+  .transformMainWrapper {
+    .colWrapper {
+      & > div {
+        width: 100%;
+        margin-left: 22px;
+      }
+    }
+
+    .textWrapper {
+      h4,
+      p {
+        font-size: 100%;
+      }
+    }
   }
 }
 
@@ -107,6 +119,16 @@
     .textWrapper {
       margin-left: 0;
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .transformMainWrapper {
+    .textWrapper {
+      h4 {
+        font-size: 90%;
+      }
     }
   }
 }

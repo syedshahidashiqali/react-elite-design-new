@@ -27,3 +27,22 @@
     z-index: 1;
   }
 }
+
+@media (max-width: 991px) {
+  .transformTabContentWrapper {
+    .transformTabContentTextWrapper {
+      text-align: center;
+
+      h3 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+    .transformTabContentImgWrapper {
+      margin-top: 5%;
+    }
+  }
+}

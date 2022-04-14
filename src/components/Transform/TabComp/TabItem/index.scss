@@ -10,3 +10,11 @@
     line-height: 17px;
   }
 }
+
+@media (max-width: 991px) {
+  .transformTabInnerWrapper {
+    span {
+      font-size: 12px;
+    }
+  }
+}
