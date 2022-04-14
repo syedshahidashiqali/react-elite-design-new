@@ -39,7 +39,4 @@
     display: flex;
     justify-content: center;
   }
-  .mainTabs .tab-content > .tab-pane > .row > .col-md-4 {
-    width: 50%;
-  }
 }
