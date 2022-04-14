@@ -28,8 +28,6 @@ function BotSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
   };
   return (
     <div className="botSliderMainWrapper">
@@ -112,19 +110,3 @@ function BotSlider() {
 }
 
 export default BotSlider;
-
-function SampleNextArrow() {
-  return (
-    <div>
-      <img className="img-fluid" src={next} alt="" />
-    </div>
-  );
-}
-
-function SamplePrevArrow() {
-  return (
-    <div>
-      <img className="img-fluid" src={prev} alt="" />
-    </div>
-  );
-}
