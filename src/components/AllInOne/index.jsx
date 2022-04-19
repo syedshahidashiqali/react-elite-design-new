@@ -4,7 +4,7 @@ import ListItem from "./ListItem";
 import ComboBanner from "./ComboBanner";
 import RotLine from "../RotLine";
 
-function AllInOne({ setShow, setData }) {
+function AllInOne({ setShow, setData, setChatShow }) {
   return (
     <div className={styles.allInOneMainWrapper}>
       <Container>
@@ -58,7 +58,11 @@ function AllInOne({ setShow, setData }) {
             </div>
           </Col>
           <Col lg={5} xs={12}>
-            <ComboBanner setShow={setShow} setData={setData} />
+            <ComboBanner
+              setShow={setShow}
+              setData={setData}
+              setChatShow={setChatShow}
+            />
           </Col>
         </Row>
         <RotLine

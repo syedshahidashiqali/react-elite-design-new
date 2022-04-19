@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMessage, faPhone } from "@fortawesome/free-solid-svg-icons";
 
-function BrandingBanner() {
+function BrandingBanner({ setChatShow }) {
   return (
     <div className={styles.brandingBannerWrapper}>
       <Container>
@@ -17,7 +17,7 @@ function BrandingBanner() {
               <h5>WE IGNITE YOUR GROWTH BEYOND MEASURE</h5>
               <h3>LET YOUR BRANDING SPEAK FOR YOU</h3>
               <ul className={styles.list}>
-                <li>
+                <li onClick={setChatShow}>
                   <a href="">
                     <FontAwesomeIcon icon={faMessage} color="#000" />
                     <span>LIVE CHAT</span>

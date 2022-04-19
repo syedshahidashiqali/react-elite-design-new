@@ -9,7 +9,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ButtonMain from "../ButtonMain";
 
-function CardTabsMain({ setShow, setData }) {
+function CardTabsMain({ setShow, setData, setChatShow }) {
   const [key, setKey] = useState("home");
 
   return (
@@ -31,6 +31,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="499"
                   delPrice="$1250.00"
                   iconImg={icon1}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" /> 3 Page
@@ -78,6 +79,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="199"
                   delPrice="$500.00"
                   iconImg={icon2}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" /> 5 Page
@@ -133,6 +135,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="699"
                   delPrice="$1750.00"
                   iconImg={icon3}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" />
@@ -192,6 +195,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="1299"
                   delPrice="$3250.00"
                   iconImg={icon1}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" />
@@ -247,6 +251,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="1999"
                   delPrice="$5000.00"
                   iconImg={icon2}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" /> Unlimited
@@ -314,6 +319,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="2499"
                   delPrice="$6250.00"
                   iconImg={icon3}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" />
@@ -458,6 +464,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="499"
                   delPrice="$1250.00"
                   iconImg={icon1}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" /> 3 Page
@@ -505,6 +512,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="199"
                   delPrice="$500.00"
                   iconImg={icon2}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" /> 5 Page
@@ -560,6 +568,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="699"
                   delPrice="$1750.00"
                   iconImg={icon3}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" />
@@ -619,6 +628,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="1299"
                   delPrice="$3250.00"
                   iconImg={icon1}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" />
@@ -674,6 +684,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="1999"
                   delPrice="$5000.00"
                   iconImg={icon2}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" /> Unlimited
@@ -741,6 +752,7 @@ function CardTabsMain({ setShow, setData }) {
                   price="2499"
                   delPrice="$6250.00"
                   iconImg={icon3}
+                  setChatShow={setChatShow}
                 >
                   <li>
                     <FontAwesomeIcon icon={faCheck} color="#f80145" />

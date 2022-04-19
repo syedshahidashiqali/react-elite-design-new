@@ -4,7 +4,7 @@ import styles from "./index.module.css";
 import logo from "../../images/logo.webm";
 import { Container, Row, Col } from "react-bootstrap";
 
-function Header() {
+function Header({ setChatShow }) {
   return (
     <div className={styles.header} fixed="top">
       <div className={styles.navigation}>
@@ -26,7 +26,7 @@ function Header() {
                     <span>+1 (512) 271-5131</span>
                   </a>
                 </div>
-                <div className={styles.ChatLink}>
+                <div className={styles.ChatLink} onClick={setChatShow}>
                   <a href="#">
                     <FontAwesomeIcon icon={faComment} />
                     <span>Live chat</span>

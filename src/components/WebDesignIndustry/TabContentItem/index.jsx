@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faComments } from "@fortawesome/free-solid-svg-icons";
 
-function TabContentItem({ head, para, imgs }) {
+function TabContentItem({ head, para, imgs, setChatShow }) {
   return (
     <div className="tabContentItemWrapper">
       <Row>
@@ -26,7 +26,7 @@ function TabContentItem({ head, para, imgs }) {
       </div>
       <div className="tabContentBtnsWrapper mt-5">
         <button className="tabContentFirstBtn">Learn More</button>
-        <a href="">
+        <a href="" onClick={setChatShow}>
           <span className="d-flex ai-c">
             Click here to
             <FontAwesomeIcon

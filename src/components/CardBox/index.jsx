@@ -9,6 +9,7 @@ function CardBox({
   children,
   setShow,
   setData,
+  setChatShow,
 }) {
   return (
     <div className={styles.pricemainBox}>
@@ -53,7 +54,9 @@ function CardBox({
         >
           Order Now
         </a>
-        <a href="#">CHAT & DISCUSS?</a>
+        <a href="#" onClick={setChatShow}>
+          CHAT & DISCUSS?
+        </a>
       </div>
     </div>
   );

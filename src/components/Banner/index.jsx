@@ -4,7 +4,7 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useRef } from "react";
 import axios from "axios";
 
-function Banner({ setShow }) {
+function Banner({ setChatShow }) {
   const usernameRef = useRef(null);
   const phoneRef = useRef(null);
   const emailRef = useRef(null);
@@ -69,11 +69,7 @@ function Banner({ setShow }) {
                   <Button variant="primary" type="submit">
                     Submit
                   </Button>
-                  <Button
-                    variant="primary"
-                    type="submit"
-                    onClick={() => setShow(true)}
-                  >
+                  <Button variant="primary" onClick={setChatShow}>
                     Chat with Us
                   </Button>
                 </div>
@@ -82,11 +78,7 @@ function Banner({ setShow }) {
           </Col>
           <Col md={5} sm={12} xs={12}>
             <div className={styles.bannerimg}>
-              <img
-                src={bannerimg}
-                alt="Banner Image"
-                className="img-fluid"
-              ></img>
+              <img src={bannerimg} alt="Banner Image" className="img-fluid" />
             </div>
           </Col>
         </Row>

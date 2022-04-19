@@ -2,7 +2,7 @@ import styles from "./index.module.scss";
 import { Button } from "react-bootstrap";
 import RotDot from "../../RotDot";
 
-export default function ComboBanner({ setShow, setData }) {
+export default function ComboBanner({ setShow, setData, setChatShow }) {
   return (
     <div
       className={styles.comboBannerMainWrapper}
@@ -38,7 +38,7 @@ export default function ComboBanner({ setShow, setData }) {
               +15122715131
             </a>
           </li>
-          <li>
+          <li onClick={setChatShow}>
             <a href="tel:+15122715131">
               <span>Want to discuss?</span>
               Live Chat Now
