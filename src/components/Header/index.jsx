@@ -1,7 +1,7 @@
 import { faPhone, faComment } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./index.module.css";
-import logo from "../../images/logo.gif";
+import logo from "../../images/logo.webm";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Header() {
@@ -12,11 +12,10 @@ function Header() {
           <Row>
             <Col md={2} sm={2} xs={4}>
               <div className={styles.logo}>
-                <img
-                  src={logo}
-                  alt="EliteDesignHub"
-                  className="img-fluid"
-                ></img>
+                {/* <img src={logo} alt="EliteDesignHub" className="img-fluid" /> */}
+                <video className="img-fluid" autoPlay loop muted playsInline>
+                  <source src={logo} type="video/webm" />
+                </video>
               </div>
             </Col>
             <Col lg={10} md={10} sm={10} xs={8}>
