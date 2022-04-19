@@ -1,14 +1,14 @@
 import "./index.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Slider from "react-slick";
-import img1 from "../../images/sliderImg1.png";
-import img2 from "../../images/sliderImg2.png";
-import img3 from "../../images/sliderImg3.png";
-import img4 from "../../images/sliderImg4.png";
-import img5 from "../../images/sliderImg5.png";
-import img6 from "../../images/sliderImg6.png";
-import prev from "../../images/arrow-prev.png";
-import next from "../../images/arrow-next.png";
+import img1 from "../../images/sliderImg1.webp";
+import img2 from "../../images/sliderImg2.webp";
+import img3 from "../../images/sliderImg3.webp";
+import img4 from "../../images/sliderImg4.webp";
+import img5 from "../../images/sliderImg5.webp";
+import img6 from "../../images/sliderImg6.webp";
+import prev from "../../images/arrow-prev.webp";
+import next from "../../images/arrow-next.webp";
 
 const imgs = [img1, img2, img3, img4, img5, img6];
 

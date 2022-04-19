@@ -1,16 +1,16 @@
 import "./index.scss";
 import { Row, Tab, Nav } from "react-bootstrap";
 import TabItem from "./TabItem";
-import icon1 from "../../../images/tabIcon1.png";
-import icon2 from "../../../images/tabIcon2.png";
-import icon3 from "../../../images/tabIcon3.png";
-import icon4 from "../../../images/tabIcon4.png";
+import icon1 from "../../../images/tabIcon1.webp";
+import icon2 from "../../../images/tabIcon2.webp";
+import icon3 from "../../../images/tabIcon3.webp";
+import icon4 from "../../../images/tabIcon4.webp";
 import TabContentItem from "./TabContentItem";
 
-import img1 from "../../../images/tabimg1.png";
-import img2 from "../../../images/tabimg2.png";
-import img3 from "../../../images/tabimg3.png";
-import img4 from "../../../images/tabimg4.png";
+import img1 from "../../../images/tabimg1.webp";
+import img2 from "../../../images/tabimg2.webp";
+import img3 from "../../../images/tabimg3.webp";
+import img4 from "../../../images/tabimg4.webp";
 
 function TabCom({ setShow }) {
   return (

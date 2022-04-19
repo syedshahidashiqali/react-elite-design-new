@@ -1,5 +1,5 @@
 .transformMainWrapper {
-  background-image: url(../../images/transformBg.jpg);
+  background-image: url(../../images/transformBg.webp);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -16,7 +16,7 @@
   }
 
   &::before {
-    background-image: url(../../images/transformBg1.png);
+    background-image: url(../../images/transformBg1.webp);
     background-size: contain;
     position: absolute;
     content: "";
@@ -28,7 +28,7 @@
   }
 
   &::after {
-    background-image: url(../../images/transformBg2.png);
+    background-image: url(../../images/transformBg2.webp);
     background-size: contain;
     position: absolute;
     content: "";

@@ -7,7 +7,7 @@
   z-index: 9;
 
   &::before {
-    background-image: url(../../images/brandbannerimg1.png);
+    background-image: url(../../images/brandbannerimg1.webp);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -21,7 +21,7 @@
   }
 
   &::after {
-    background-image: url(../../images/brandbannerimg2.png);
+    background-image: url(../../images/brandbannerimg2.webp);
     background-repeat: no-repeat;
     position: absolute;
     content: "";

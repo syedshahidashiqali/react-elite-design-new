@@ -1,5 +1,5 @@
 import styles from "./index.module.scss";
-import bannerimg from "../../images/web1.png";
+import bannerimg from "../../images/web1.webp";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useRef } from "react";
 import axios from "axios";

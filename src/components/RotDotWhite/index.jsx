@@ -1,5 +1,5 @@
 import styles from "./index.module.scss";
-import rotImg1 from "../../images/growRotImgDotWhite.png";
+import rotImg1 from "../../images/growRotImgDotWhite.webp";
 
 const RotDot = ({ stylesfromProps1, stylesfromProps2 }) => {
   return (

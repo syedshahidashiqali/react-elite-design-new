@@ -1,5 +1,5 @@
 .botSliderMainWrapper {
-  background-image: url(../../images/sliderBgImg.jpg);
+  background-image: url(../../images/sliderBgImg.webp);
   background-size: cover;
   width: 100%;
   padding: 100px 0 60px;
@@ -39,7 +39,7 @@
         left: 0;
         height: 45px;
         width: 23px;
-        background: url(../../images/arrow-prev.png) no-repeat;
+        background: url(../../images/arrow-prev.webp) no-repeat;
         cursor: pointer;
         z-index: 5;
 
@@ -56,7 +56,7 @@
         border: none;
         height: 45px;
         width: 23px;
-        background: url(../../images/arrow-next.png) no-repeat;
+        background: url(../../images/arrow-next.webp) no-repeat;
         cursor: pointer;
         right: 0;
         top: 62%;

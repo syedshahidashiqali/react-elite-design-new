@@ -1,5 +1,5 @@
 import styles from "./index.module.css";
-import experianceimg from "../../images/stats.png";
+import experianceimg from "../../images/stats.webp";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Experiance() {

@@ -6,14 +6,14 @@ import icon2 from "../../images/svg/icon2.svg";
 import icon3 from "../../images/svg/icon3.svg";
 import icon4 from "../../images/svg/icon4.svg";
 import TabContentItem from "./TabContentItem";
-import web1Img from "../../images/website-1.png";
-import web2Img from "../../images/website-2.png";
-import web3Img from "../../images/website-3.jpg";
-import web4Img from "../../images/website-4.jpg";
-import web5Img from "../../images/website-5.jpg";
-import web6Img from "../../images/website-6.jpg";
-import web7Img from "../../images/website-7.jpg";
-import web8Img from "../../images/website-8.jpg";
+import web1Img from "../../images/website-1.webp";
+import web2Img from "../../images/website-2.webp";
+import web3Img from "../../images/website-3.webp";
+import web4Img from "../../images/website-4.webp";
+import web5Img from "../../images/website-5.webp";
+import web6Img from "../../images/website-6.webp";
+import web7Img from "../../images/website-7.webp";
+import web8Img from "../../images/website-8.webp";
 
 function WebDesIndustry() {
   return (

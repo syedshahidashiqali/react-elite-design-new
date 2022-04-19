@@ -1,7 +1,7 @@
 import styles from "./index.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import footerLogo from "../../../images/footerLogo.png";
-import footerImg from "../../../images/footerPartners.png";
+import footerLogo from "../../../images/footerLogo.webp";
+import footerImg from "../../../images/footerPartners.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
