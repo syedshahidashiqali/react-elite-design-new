@@ -102,7 +102,6 @@ function App() {
       </Suspense>
       <Suspense fallback={""}>
         <Zendesk
-          defer
           zendeskKey={ZENDESK_KEY}
           onLoaded={() => console.log("is loaded")}
         />
