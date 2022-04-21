@@ -32,6 +32,7 @@
   vertical-align: middle;
   color: #333;
   text-decoration: none;
+  font-weight: 700;
 }
 .ChatLink a {
   float: left;
@@ -39,8 +40,12 @@
   padding: 7px 15px;
   border-radius: 50px;
   position: relative;
-  color: #000;
   text-decoration: none;
+}
+
+.ChatLink a span {
+  font-weight: 700;
+  color: #333;
 }
 .ChatLink a svg {
   color: #ae3e94;
@@ -49,6 +54,8 @@
 .ChatLink a:hover {
   border: 1px solid #b23b93;
   background-color: #b33b93;
+}
+.ChatLink a:hover span {
   color: #fff;
 }
 .ChatLink a:hover svg {
