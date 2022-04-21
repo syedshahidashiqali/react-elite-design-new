@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faComments } from "@fortawesome/free-solid-svg-icons";
 
-function TabContentItem({ head, para, imgs, setChatShow }) {
+function TabContentItem({ head, para, imgs, setChatShow, setData, setShow }) {
   return (
     <div className="tabContentItemWrapper">
       <Row>
@@ -25,7 +25,7 @@ function TabContentItem({ head, para, imgs, setChatShow }) {
         </Row>
       </div>
       <div className="tabContentBtnsWrapper mt-5">
-        <button className="tabContentFirstBtn">Learn More</button>
+        {/* <button className="tabContentFirstBtn">Learn More</button> */}
         <a href="" onClick={setChatShow}>
           <span className="d-flex ai-c">
             Click here to
@@ -38,7 +38,7 @@ function TabContentItem({ head, para, imgs, setChatShow }) {
           </span>
           <h3>Live Chat</h3>
         </a>
-        <a href="">
+        <a href="tel:+15122715131">
           <span className="d-flex ai-c">
             Call Us At
             <FontAwesomeIcon
@@ -48,9 +48,18 @@ function TabContentItem({ head, para, imgs, setChatShow }) {
               className="ms-2"
             />
           </span>
-          <h3>254-274-5646</h3>
+          <h3>+1 (512) 271-5131</h3>
         </a>
-        <button className="tabContentLasttBtn">Order Now</button>
+        <button
+          className="tabContentLasttBtn"
+          onClick={(e) => {
+            e.preventDefault();
+            setData("");
+            setShow(true);
+          }}
+        >
+          Order Now
+        </button>
       </div>
     </div>
   );

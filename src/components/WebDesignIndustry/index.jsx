@@ -15,7 +15,7 @@ import web6Img from "../../images/website-6.webp";
 import web7Img from "../../images/website-7.webp";
 import web8Img from "../../images/website-8.webp";
 
-function WebDesIndustry({ setChatShow }) {
+function WebDesIndustry({ setChatShow, setData, setShow }) {
   return (
     <div className="webDesignMainWrapper">
       <Container>
@@ -73,6 +73,8 @@ function WebDesIndustry({ setChatShow }) {
                       <Tab.Pane eventKey="custom">
                         <TabContentItem
                           setChatShow={setChatShow}
+                          setData={setData}
+                          setShow={setShow}
                           head="CUSTOM WEBSITE"
                           para="Do you want to enhance your sales and spice your marketing strategies on a website? 
                         Look no further. Our team of developers and designers has the ability and exposure to create an 
@@ -85,6 +87,8 @@ function WebDesIndustry({ setChatShow }) {
                       <Tab.Pane eventKey="content">
                         <TabContentItem
                           setChatShow={setChatShow}
+                          setData={setData}
+                          setShow={setShow}
                           head="CMS – CONTENT MANAGEMENT SYSTEM"
                           para="Every business needs a strong Content Management System (CMS). CMS is essential for 
                         accurate and relevant information. We offer website development solutions for leading CMS 
@@ -95,6 +99,8 @@ function WebDesIndustry({ setChatShow }) {
                       <Tab.Pane eventKey="ecommerce">
                         <TabContentItem
                           setChatShow={setChatShow}
+                          setData={setData}
+                          setShow={setShow}
                           head="E-COMMERCE"
                           para="A well-designed E-commerce website is essential to the success of online stores. 
                         Contrary to the common assumption, a good design goes beyond just graphics and other 
@@ -108,6 +114,8 @@ function WebDesIndustry({ setChatShow }) {
                       <Tab.Pane eventKey="static">
                         <TabContentItem
                           setChatShow={setChatShow}
+                          setData={setData}
+                          setShow={setShow}
                           head="STATIC WEBSITE DESIGN"
                           para="Elite Design Hub has the expertise to create a stunning static website. 
                         Our creative team will create a design that will appeal to your clients and keep 

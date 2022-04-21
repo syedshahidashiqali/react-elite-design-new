@@ -21,7 +21,7 @@ function Header({ setChatShow }) {
             <Col lg={10} md={10} sm={10} xs={8}>
               <div className={styles.callright}>
                 <div className={styles.callTag}>
-                  <a href="#">
+                  <a href="tel:+15122715131">
                     <FontAwesomeIcon icon={faPhone} />
                     <span>+1 (512) 271-5131</span>
                   </a>

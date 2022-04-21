@@ -42,7 +42,7 @@ function App() {
         <Header setChatShow={showChatHandler} />
       </Suspense>
       <Suspense fallback={""}>
-        <Banner setShow={setShow} setChatShow={showChatHandler} />
+        <Banner setChatShow={showChatHandler} />
       </Suspense>
       <Suspense fallback={""}>
         <Experiance />
@@ -62,7 +62,11 @@ function App() {
         />
       </Suspense>
       <Suspense fallback={""}>
-        <BrandingBanner />
+        <BrandingBanner
+          setShow={setShow}
+          setData={setData}
+          setChatShow={showChatHandler}
+        />
       </Suspense>
       <Suspense fallback={""}>
         <AllInOne
@@ -72,13 +76,25 @@ function App() {
         />
       </Suspense>
       <Suspense fallback={""}>
-        <BrandingBanner setChatShow={showChatHandler} />
+        <BrandingBanner
+          setShow={setShow}
+          setData={setData}
+          setChatShow={showChatHandler}
+        />
       </Suspense>
       <Suspense fallback={""}>
-        <WebDesIndustry setShow={setShow} setChatShow={showChatHandler} />
+        <WebDesIndustry
+          setShow={setShow}
+          setData={setData}
+          setChatShow={showChatHandler}
+        />
       </Suspense>
       <Suspense fallback={""}>
-        <BrandingBanner setChatShow={showChatHandler} />
+        <BrandingBanner
+          setShow={setShow}
+          setData={setData}
+          setChatShow={showChatHandler}
+        />
       </Suspense>
       <Suspense fallback={""}>
         <Portfolio setShow={setShow} />
